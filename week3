@@ -1,1 +1,24 @@
+>>> if scoreA=scoreB:
+	
+SyntaxError: invalid syntax
+>>> if scoreA=scoreB:
+	
+SyntaxError: invalid syntax
+>>> 
+>>> ifscoreA= scoreB:print("tie")
+SyntaxError: invalid syntax
+>>> 
+>>> 
+>>> userinput=input("enter y to quit.")
+enter y to quit.
+>>> 
+>>> y
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    y
+NameError: name 'y' is not defined
+>>> userinput=input("entery to quit") if userinput= "y" then output=("quit")
+SyntaxError: invalid syntax
+>>> 
+>>> 
 
