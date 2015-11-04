@@ -13,4 +13,27 @@ num= 4
 0
 >>> 
 >>> 
+# incorrect code question 5 
+radius = input("Radius:")
+x = 3.14
+pi = x
+area = pi * radius ** 2
+SyntaxError: multiple statements found while compiling a single statement
 >>> 
+# corrected code question 5
+#   ** is the symbol for powers in python
+
+radius = input ("radius:")
+
+area= int(radius)**2 * 31.4
+
+print ("area: " + str(area))
+
+#ans/output
+
+>>> 
+radius:5
+area: 785.0
+>>> 
+
+
