@@ -20,6 +20,8 @@ pi = x
 area = pi * radius ** 2
 SyntaxError: multiple statements found while compiling a single statement
 >>> 
+
+
 # corrected code question 5
 #   ** is the symbol for powers in python
 
@@ -36,4 +38,20 @@ radius:5
 area: 785.0
 >>> 
 
+#question 9 
+>>> 
+x = 19.93
+y = 20.00
+z = y – x
+print(z)
+x = 19.93
+y = 20.00
+z = y – x
+print(z)
+>>> 
+#Q9 improved code 2DP
+>>> 
 
+
+
+>>> 
