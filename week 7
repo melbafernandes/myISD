@@ -1,1 +1,25 @@
-w
+# week 7 Q1)
+
+class Student():
+    def __init__(self,surname,name,student_number,course):
+         self.a = surname
+         self.b = name
+         self.c = student_number
+         self.d = course
+
+    def printDetails(self):
+        print("surname: ", self.a)
+        print("name: ", self.b)
+        print("studentnumber: ", self.c)
+        print("course: ", self.d)
+
+
+student1 = Student("fernandes", "melba", "24325364", "computing")
+student1.printDetails()
+
+
+from student import Student
+for i in range (1,5):
+    surname = input ("enter surname:")
+    name = input ("enter name:")
+    studentnumber = ("enter student number:") 
